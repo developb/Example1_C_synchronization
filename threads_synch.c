@@ -84,7 +84,6 @@ int main()
 	for(j=0;j<NUMTHREADS;j++)
 		pthread_join(thread[j],NULL);
 	
-	//sleep(50);
 	pthread_mutex_destroy(&lock);
 	return 0;
 }
